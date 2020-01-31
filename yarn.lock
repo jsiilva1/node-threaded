@@ -887,6 +887,11 @@ bindings@^1.5.0:
   dependencies:
     file-uri-to-path "1.0.0"
 
+bn.js@^4.11.8:
+  version "4.11.8"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
+  integrity sha512-ItfYfPLkWHUjckQCk8xC+LwxgK8NYcXywGigJgSwOP8Y2iyWT4f2vsZnoOXTTbo+o5yXmIUJ4gn5538SO5S3gA==
+
 body-parser@1.19.0, body-parser@^1.19.0:
   version "1.19.0"
   resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.19.0.tgz#96b2709e57c9c4e09a6fd66a8fd979844f69f08a"
@@ -1446,6 +1451,13 @@ extglob@^2.0.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+fibonacci@^1.6.7:
+  version "1.6.7"
+  resolved "https://registry.yarnpkg.com/fibonacci/-/fibonacci-1.6.7.tgz#9b5eae3bafb2d1936f5c782196fff8ffa5a31bb7"
+  integrity sha512-nVgSm9CiotuqZCQmi+fLqhZIDlLihBOfheKt41KaOym1oH1GZo4IsW9EG2x94u92wRcQYiXgBbplbpjAdo1Uxw==
+  dependencies:
+    bn.js "^4.11.8"
 
 file-uri-to-path@1.0.0:
   version "1.0.0"

@@ -7,13 +7,15 @@ import bodyParser from 'body-parser';
 /*
  * Application dependencies
 */
-import router from './routes';
+import defaultRouter from './routes';
+import fibRouter from './routes/fib';
 
 const app = express();
 
 const bootstrap = async () => {
   app.use(bodyParser.json());
-  app.use(router);
+  app.use(defaultRouter);
+  app.use(fibRouter);
 
   return app;
 };
