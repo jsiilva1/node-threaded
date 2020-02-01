@@ -20,6 +20,4 @@ const bootstrap = async () => {
   return app;
 };
 
-module.exports = {
-  bootstrap,
-};
+module.exports = { bootstrap };
